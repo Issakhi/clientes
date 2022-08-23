@@ -1,0 +1,258 @@
+.menu{
+     background-color: rgb(29, 29, 156);
+     border-radius: 10px;
+     padding: 10px;
+     text-align: left;
+}
+body{
+    background-color: rgb(231, 231, 235);
+}
+.link{
+      color: rgb(243, 243, 243);
+      text-decoration: none;
+      padding: 10px;
+      font-size: 30px; 
+}
+.menu :hover{
+      background-color: white;
+      color: rgb(29, 29, 156);
+      border-radius: 5px;
+}
+h2{
+                background-color: rgb(19, 19, 255);
+                background-size: auto;
+                color: white;
+                padding: 5px;
+                margin-left: 20%;
+                margin-right: 20%;
+                text-align: center;
+                margin-top: 10px;
+                border-radius: 10px;
+            }
+
+
+
+.listado{
+                border-collapse: separate;
+                margin: auto;
+                padding: 20px;
+                
+}
+
+.thead{
+              background-color: rgb(4, 42, 167);
+              color: white;
+              text-align: center;
+
+}
+.tcabecera{
+            padding: 10px;
+}
+
+.filas{
+      background-color: rgb(161, 163, 194);
+}
+.tel{
+     background-color: rgb(161, 163, 194);
+     text-align: center;
+}
+
+button{
+                background-color: rgb(65, 65, 245);
+                color: white;
+                padding: 3px;
+                border-radius: 10px;
+                border-color: rgb(246, 246, 248);
+            }
+
+.clienteForm{
+                width: 100%;
+                max-width: 600px;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: 5px;
+                padding: 10px;
+                color: rgb(231, 231, 231);
+                
+            }
+
+.nb{
+            display: block;
+            width: 80%;
+            margin: 5px;      
+            }
+.enviar{
+
+        text-align: center;
+        margin:auto;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: large;
+}
+
+.eliminarContacto{
+                align-items: center;
+                
+     
+}
+
+.txtEliminar{
+            background-color: aqua;
+}
+.dtEliminar{
+           color: red;
+           background-color: rgb(226, 221, 221);
+           border-collapse: separate;
+} 
+
+.eliminarContacto .tEliminar{
+
+             margin: auto;
+             margin-top: 10px;
+             border-collapse: separate;
+}
+.eliminarContacto .btnEliminar{
+            margin-left: 50%;
+            margin-top:5px;
+            padding: 5px;
+}
+
+.eliminarContacto .tEliminar td.etiqueta{
+      text-align: start;
+      background-color: rgb(231, 235, 234);
+}
+
+.eliminarContacto .tEliminar td.dato{
+       text-align: start;
+       background-color: rgb(247, 179, 179);
+}
+.btnSum{
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 150%;
+
+}
+.numero{
+       text-align: right;
+       background-color: rgb(161, 163, 194);
+       padding-right: 5px;
+}
+
+.btnSeleccionados{
+    background-color:blue;
+    font-size: 14px;
+    color: rgb(243, 150, 150);
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.eliminarContacto .tEliminar .linkComprobar{
+           color: aqua;
+}
+
+.btnEditar{
+    border-radius: 5px;
+    background-color: rgb(64, 64, 141);
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    size: 10px;
+    margin: 10px;
+    
+    text-decoration: none;
+
+}
+
+.btnBorrar{
+    border-radius: 5px;
+    background-color: rgb(122, 19, 36);
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    size: 10px;
+    margin: 10px;
+    text-decoration: none;
+
+}
+.btnGuardar{
+    border-radius: 6px;
+    background-color: rgb(58, 40, 219);
+    text-decoration: none;
+    padding-top: 5px;
+    color: white;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin: 10px;
+}
+
+.tdEditado{
+    padding: 10px;
+}
+
+.aste{
+    color: red;
+}
+
+.clienteMensaje{
+        text-align: center;
+}
+
+.imgPlus{
+    height: 50px;
+    width: 50px;
+}
+
+.linkPerfil{
+     text-decoration: none;
+     color: rgb(89, 6, 156);
+}
+
+.num{
+    color: red;
+}
+
+.tdCliente{
+            text-align: end;
+}
+
+.btnCancelar{
+        text-decoration: none;
+}
+
+.formadd{
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+        padding: 10px;
+        color: rgb(231, 231, 231);
+}
+.btnCancelar{
+    background-color: rgb(138, 44, 44);
+    color: beige;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btnCancelarBorrado{
+    background-color: aquamarine;
+    text-decoration: none;
+    border-radius: 5px;
+    padding:3px;
+    color: rgb(41, 38, 38);
+}
+
+
